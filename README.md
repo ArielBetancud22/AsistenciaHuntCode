@@ -3,7 +3,7 @@
 Nicol Peñalve
 Franco Botto
 Juan Viñas
-Lucas 
+Lucas Lopez
 Mayra Medina
 Ramirez Andres
 Ricardo Modon
