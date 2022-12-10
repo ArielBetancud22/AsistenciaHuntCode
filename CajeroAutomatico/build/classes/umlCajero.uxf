@@ -1,0 +1,81 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>540</x><y>40</y><w>210</w><h>410</h></coordinates><panel_attributes>&lt;&lt;Abstract Class&gt;&gt;
+package::clases
+
+--
+int transacciones
+in retiro
+int deposito
+int saldo
+String banco
+String nombre
+long cbu
+--
++Operaciones():void
++retiro():void
++deposito():void
++crearCbu():void
++transacciones():void
++cargarDatosNombres():void
++cargarDatosBanco():void
++getSaldo():Int
++setSaldo():void
++getCbu():long
++setcbu():void
++Stringnombre():String
++setnombre():void
++banco()String
++setBanco():void
+
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>560</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;ClaseHija_Deposito&gt;&gt;
+Package::clases
+
+--
+
+--
++transacciones():void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>560</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;ClaseHija_cbu&gt;&gt;
+Package::clases
+
+--
+
+--
++transacciones():void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>740</x><y>560</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;ClaseHijaConsulta&gt;&gt;
+Package::clases
+
+--
+
+--
++transacciones():void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>990</x><y>560</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;ClaseHija_Reitro&gt;&gt;
+Package::clases
+
+--
+
+--
++transacciones():void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>440</y><w>90</w><h>80</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>470</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>210;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>480</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1070</x><y>480</y><w>90</w><h>100</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>470</y><w>290</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>270;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>470</y><w>580</w><h>40</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;20;560;20</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>480</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>480</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>480</y><w>80</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;include&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>560</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;ClasePrincipal&gt;&gt;
+Package:ar.com.Galicia.www
+
+--
+
+--
++main():void
+--
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
