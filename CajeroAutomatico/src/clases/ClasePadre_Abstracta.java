@@ -67,7 +67,7 @@ public abstract class ClasePadre_Abstracta {
                 } else if (seleccion == 3) {
                     ClasePadre_Abstracta estadoCuenta = new ClaseHija_Deposito();
                     estadoCuenta.Transacciones();
-                } else if (seleccion == 5) {
+                } else if (seleccion == 4) {
                     System.out.println("------------------------------------------------------");
                     System.out.println("          .  Gracias " + nombre + "!, Vuelva pronto.               ");
                     System.out.println("------------------------------------------------------");
