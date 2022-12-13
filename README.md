@@ -1,4 +1,4 @@
-# AsistenciaHuntCode  Y cajero automaticO TRABAJO INTEGRADOR
+# AsistenciaHuntCode  Y cajero automatico el cual pertenece al TRABAJO INTEGRADOR
 
 Nicol Peñalve
 Franco Botto
@@ -8,3 +8,4 @@ Mayra Medina
 Ramirez Andres
 Ricardo Modon
 Santiago Bergerat
+Daiana Suarez
